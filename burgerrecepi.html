@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Burger Recipe</title>
+    <!-- add the font awesome link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>How To Make Very Good Burger</h1>
+				<img src="https://i.imgur.com/n1Fyjw9.jpg"  alt="Burger">
+	
+				<p>Berger is really dilicious having meat and vegetables with best souces. Since burger contain both meat and vegitables,As a human this is one of the best and easy solution to have in our daily routine.
+				</p>
+	
+			</header>
+			
+			<section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+				<!-- add a fontawesome icon here -->
+				<h2>ingredients <i class="fa fa-product-hunt" aria-hidden="true"></i> </h2>
+				<ul>
+					<li>Meat</li>
+			   <li>Sallad</li>
+			   <li>Bread</li>
+			   <li>Dressing</li>
+			   <li>Tomato</li>
+			   <li>Cheese</li>
+			   <li>Onion</li>
+			   <li>Salt</li>
+			   <li>Paper</li>
+				</ul>
+			</section>
+			
+			<section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+				<!-- add a fontawesome icon here -->
+				<h2>Complete Process <i class="fa fa-question-circle" aria-hidden="true"></i></h2>
+				<ol>
+					<li>Firstly, Prepare the sauce or dressing, We gonna prepare chilli sauce. For that, Take some myannas, chilli, jalapeno, salt and black paper, Mixed all this together. 
+				</li>
+				
+			  <li>Prepare vegitables, We can put any kind of vegitables whatever we want. But I suggest Sallad, Tomat and Onion because this is perfect with chilli burger
+			  </li>
+			  
+			  <li>Now Meat, I hope we have meat that is already formed for burger. We make burger patty and put on the steak (200 degree temperature) for 8 minutes, salt and blackpaper on the top of the meat, after 4 minutes turn the meat on the other side 
+			  </li>
+			  
+			  <li>Then we put bread on the steak for making warm for 45second-1minute
+			  
+			  </li>
+			  
+			  <li>Finnally, we take a dish, first put bottom side of bread then dressing, sallad, tomat, meat, onion some sauce agin and than top side of the bread sequentially
+			  </li>
+			  
+			  <li>Opps, One step left, We put cheese on the top of the meat during cooking just because cheese should be melth.
+			  </li>
+					<li>
+						Enjoy!
+					</li>
+				</ol>
+			</section>
+			
+			<footer>
+				<p>Copyright Me 2020</p>
+			</footer>
+		</div>
+		<script>
+		    function ingredientsHover(){
+		    document.getElementById("ingredients").style.fontSize = "150%";
+      }
+       function ingredientsNormal(){
+       document.getElementById("ingredients").style.fontSize = "100%";
+      }
+       function preparationHover(){
+        document.getElementById("preparation").style.fontSize = "150%";
+      }
+      function preparationNormal(){
+        document.getElementById("preparation").style.fontSize = "100%";
+      }
+    		
+        </script>
+	</body>
+</html>
